@@ -1,0 +1,60 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: purple;
+    animation-name: reset;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    text-align: center;
+}
+
+@keyframes reset{
+    from{
+        color: purple;
+    }
+    to{
+        color: blue;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: lightgray;
+    transition: .3s;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 20px;
+}
